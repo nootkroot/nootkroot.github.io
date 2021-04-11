@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Roboto';
+}
+
+.main {
+  margin-top: 80px; /* Add a top margin to avoid content overlay */
+}
+
+#Introduction {
+  margin-top: 25%;
+  margin-bottom: 25%;
+  font-size: 40px;
+  overflow: hidden;
+  text-align: center;
+}
+
+#Introduction h1 {
+  animation: slide-up ease-out 2s, fadeInAnimation ease-in-out 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+  margin-top: 0%;
+}
+
+#brief-about {
+  margin: auto;
+  width: 70%;
+  font-weight: 600;
+  font-size: 35px;
+  text-align: center;
+}
+
+div#brief-about > p + p{
+  margin-top: 100px;
+}
+
+#contact-info {
+  font-size: 30px;
+  padding-left: 20px;
+}
+
+.smol {
+  font-size: 15px;
+  position: fixed;
+  left: 20px;
+  bottom: 0;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+     }
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 10%;
+  }
+
+  to {
+    margin-top: 0%;
+  }
+}
+
+.navbar {
+  background-color: #101010;
+  overflow: hidden;
+  font-family: 'Hind';
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  z-index: 1;
+}
+
+.navbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  margin: 8px;
+  padding: 8px;
+  font-size: 22px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  transition-delay: 0.1s;
+}
+
+.navbar a.link:hover {
+  -moz-transform: scale(1.15);
+  -webkit-transform: scale(1.15);
+  -o-transform: scale(1.15);
+  -ms-transform: scale(1.15);
+  transform: scale(1.15);
+  text-decoration: underline;
+}
+
+.navbar a.name {
+  font-size: 30px;
+  font-family: 'Comfortaa';
+}
+
+.navbar a.active {
+	color: #A0A0A0;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+  display: none;
+}
+
+/* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 840px) {
+  .navbar a:not(.name) {display: none;}
+  .navbar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+@media screen and (max-width: 840px) {
+  .navbar.responsive {position: relative;}
+  .navbar.responsive a.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .navbar.responsive a {
+    float: none;
+    transform-origin: left;
+    text-align: left;
+    display: block;
+    z-index: 1;
+  }
+}
