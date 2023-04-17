@@ -1,3 +1,38 @@
-baseURL = 'http://example.org/'
+baseURL = 'https://nootkroot.github.io/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = "nootkroot"
+theme = 'archie'
+copyright = "© nootkroot"
+
+[params]
+	mode="toggle"
+  
+
+# Social Tags
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/nootkroot"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/nootkroot/"
+
+# Main menu Items
+
+[[menu.main]]
+name = "~/home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "~/posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "~/tags"
+url = "/tags"
+weight = 3
