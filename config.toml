@@ -1,7 +1,7 @@
 baseURL = 'https://nootkroot.github.io/'
 languageCode = 'en-us'
 title = "nootkroot"
-theme = 'archie'
+theme = 'archie-edited'
 copyright = "© nootkroot"
 
 [params]
