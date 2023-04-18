@@ -4,9 +4,11 @@ title = "nootkroot"
 theme = 'archie-edited'
 copyright = "© nootkroot"
 
+disableKinds = ["RSS"]
+
 [params]
 	mode="toggle"
-  
+
 
 # Social Tags
 
