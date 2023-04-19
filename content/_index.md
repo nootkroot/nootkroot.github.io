@@ -10,17 +10,9 @@ I like to code in:
 
 but I'm able to use others when needed.
 
-I've been programming since mid-2020 and cybersecurity since early-2022.
+I've been programming since mid-2020 and doing cybersecurity and CTFs since early-2022.
 
 This is my blog where I'll mostly be posting writeups from CTFs that I do, but maybe also other things I find interesting.
-
-## Education
-I'm currently a sophomore at Interlake High School.
-
-I'm also studying for my CCNA and am pursuing the CCNP and OSED certifications.
-
-## Projects
-I'm building my own CTF platform, although very far from being done and still only a concept as of now.
 
 ## Awards
 - 2nd place Cybersecurity @ State ([TSA 2022](https://tsaweb.org/))
