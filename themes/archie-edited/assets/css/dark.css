@@ -19,10 +19,11 @@ hr {
   border-top: 3px dotted blue;
 }
 code {
-  background-color: lightblue;
-  color: black;
-  text-decoration: bold;
-  padding: 0.1em 0.2em;
+  background-color: #141517;
+  color: white;
+  border-radius: 5px;
+/*  font-weight: bold;*/
+  padding: 0.2em 0.35em;
 }
 pre {
   background-color: #272822;
