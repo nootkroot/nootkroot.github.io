@@ -239,4 +239,4 @@ RCE was simple, we could simply include PHP code that called a series of `system
 
 Following through with all these steps led us to the flag `actf{w4tch_y0ur_p4th_724248b559281824}`.
 
-Thanks to flocto ([@fl0ct0](https://twitter.com/fl0ct0)) and uanirudhx (idk their twitter) for helping with this challenge!
+Thanks to flocto ([twitter](https://twitter.com/fl0ct0)) and uanirudhx ([github](https://github.com/anirudhb)) for helping with this challenge!
