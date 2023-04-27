@@ -5,7 +5,7 @@ description: A writeup for the filestore challenge from Angstrom CTF 2023
 tags: [writeups, ctfs]
 ---
 
-This past week I played Angstrom CTF with `.;,;.` and we got 2nd place. Good job to my friends on the 1st place team `View Source` and 3rd place team `Les Amateurs`! It was one of the more fun CTFs I've done in a while (although imo last year's was better lol).
+This past week I played Angstrom CTF with `.;,;.` and we got 2nd place in the High School division! Good job to my friends on the 1st place team `View Source` and 3rd place team `Les Amateurs`! It was one of the more fun CTFs I've done in a while (although imo last year's was better lol).
 
 # The Challenge
 {{< zoom-img src="img/chall.png" >}}
