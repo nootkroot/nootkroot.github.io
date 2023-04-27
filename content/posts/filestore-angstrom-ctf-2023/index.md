@@ -44,7 +44,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST"){
 
 There's two main functionalities in this file. Being able to upload a file to the server and being able to read files on the server.
 
-In the source code of the challenge given to us theres also two executables. `list_uploads` which attempts to list the contents of the uploads folder, and `make_abyss_entry` which creates a new directory in the `/abyss` folder. Also in the source is a Dockerfile which tells us the location of the flag and different permissions that programs have.
+In the source of the challenge theres also two executables. `list_uploads` which attempts to list the contents of the uploads folder, and `make_abyss_entry` which creates a new directory in the `/abyss` folder. Also in the source is a Dockerfile which tells us the location of the flag and different permissions that programs have.
 
 ```docker
 FROM php:8.1.18-apache-bullseye
