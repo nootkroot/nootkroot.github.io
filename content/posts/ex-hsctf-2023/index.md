@@ -1,5 +1,5 @@
 ---
-title: ex Writeup - Angstrom CTF 2023
+title: ex Writeup - HSCTF 2023
 date: 2023-06-14
 description: 
 tags: [writeups, ctfs, pwn]
