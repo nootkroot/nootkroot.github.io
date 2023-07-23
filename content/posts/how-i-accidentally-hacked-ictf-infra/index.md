@@ -1,6 +1,7 @@
 ---
 title: "How I (accidentally) hacked ImaginaryCTF infra"
 date: 2023-07-23
+description: "this is what i get for writing an instancer from scratch the day before the ctf" - Eth007
 tags: [writeups, ctfs]
 ---
 
