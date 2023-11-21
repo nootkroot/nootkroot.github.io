@@ -5,6 +5,8 @@ description: "\"this is what i get for writing an instancer from scratch the day
 tags: [writeups, ctfs]
 ---
 
+FYI: I wrote this writeup super quickly so expect a lot of typos :) (I'm too lazy to go through and fix them)
+
 For this years ImaginaryCTF I played with my friends at `les amateurs`. We ended up placing 12th out of 880 teams competing! There were lots of super interesting challenges and I look forward to competing in next year.
 
 # Background
